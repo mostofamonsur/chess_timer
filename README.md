@@ -12,4 +12,6 @@ The respective clock will be paused when the player1 or player2 button will be p
 #H4 Results
 When a clock reaches to 0 the opposite player will win the game.
 
+Test case execution report added.
+
 
