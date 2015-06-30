@@ -1,0 +1,45 @@
+body {
+      background-color: #FFFFAA;
+      font-family: 'Trebuchet MS', sans-serif;
+      margin: 50px 50px;
+      font-size: 1000%;
+    }
+    #player1timer {
+      color: #000088;
+      float: left;
+      margin-left: 125px;
+    }
+    #player2timer {
+      color: #005500;
+      float: right;
+      margin-right: 125px;
+    }
+
+    #player2 {
+      float: right;
+      margin-top: 130px;
+      background-color: #b0e0e6;
+    }
+
+    #player1 {
+      background-color: #b0e0e6;
+    }
+
+    
+    #information {
+      /*font-size: 80%;*/
+      color: #AA0000;
+      text-align: center;
+      /*width: 100%;*/
+    }
+    .hidden {
+      visibility: hidden;
+    }
+
+    #reset {
+      margin-left: 450px;
+      margin-right: auto;
+      background-color: #b0e0e6;
+    }
+    
+
