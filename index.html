@@ -1,0 +1,30 @@
+<!-- Source code
+© 2007 [Jacob Rus](http://www.hcs.harvard.edu/~jrus/).
+
+Released under the MIT License, see license.md
+
+-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <title>Chess Clock 9000</title>
+    <script src="js/custom.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
+
+  <body style='' onload='createGame()'>
+    <div id='information' class='hidden'>-</div>
+   
+    <div id="game-board">
+      <div id='player1timer'>0</div>
+      <button type="button" id='player1' onclick="game.clickPlayer1(event)">Player1</button>
+      <div id='player2timer'>0</div>
+      <button type="button" id='player2' onclick="game.clickPlayer2(event)">Player2</button>
+    </div>
+
+    <button type="button" id='reset' onclick="game.resetTimer();">Reset</button>  
+  </body>
+
+</html>
